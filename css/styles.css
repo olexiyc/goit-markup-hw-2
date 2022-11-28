@@ -5,16 +5,14 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;}
 .header{/* Top line bg */
-
-
     position: absolute;
     width: 1440px;
     height: 72px;
     left: 0px;
     top: 0px;
-    
     background: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
 .webstudio{width: 44px;
@@ -43,51 +41,23 @@ body{
     order: 0;
     flex-grow: 0;}
 .studio{width: 48px;
-    height: 24px;
-    
-    /* Body Bold */
-    
-    font-family: 'Roboto';
-    font-style: normal;
+    height: 24px;   
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
-    color: #2E2F42;
-    
-    
-    /* Inside auto layout */
-    
+    letter-spacing: 0.02em; 
+    color: #2E2F42;    
     flex: none;
     order: 0;
     flex-grow: 0;}
 .portfolio{
-    width: 66px;
+width: 66px;
 height: 24px;
-
-/* Body Bold */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 24px;
-/* identical to box height, or 150% */
-
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
 color: #2E2F42;
-
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;}

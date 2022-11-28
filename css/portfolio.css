@@ -5,7 +5,8 @@ a{
     text-decoration: none;
 }
 body{
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+    font-style: normal}
     .header{/* Top line bg */
 
 
@@ -156,3 +157,40 @@ body{
     .tel:focus{
         color: red;
     }
+    .title{   
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+        
+        letter-spacing: 0.02em;
+        
+        /* NAVY BLUE */
+        
+        color: #2E2F42;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+    .text{font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: 0.02em;
+        
+        /* SLATE */
+        
+        color: #434455;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;}
