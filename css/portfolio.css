@@ -1,0 +1,158 @@
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;}
+    .header{/* Top line bg */
+
+
+        position: absolute;
+        width: 1440px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
+    .webstudio{width: 44px;
+        height: 24px;
+        
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 24px;
+        /* identical to box height, or 133% */
+        
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        color: #4D5AE5;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+    .studio{width: 48px;
+        height: 24px;
+        
+        /* Body Bold */
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: 0.02em;
+        
+        /* NAVY BLUE */
+        
+        color: #2E2F42;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;}
+    .portfolio{
+    width: 66px;
+    height: 24px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;}
+    .contacts{/* Contacts */
+    
+    
+    
+        width: 67px;
+        height: 24px;
+        
+        /* Body Bold */
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        
+        letter-spacing: 0.02em;
+        
+        /* NAVY BLUE */
+        
+        color: #2E2F42;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 2;
+        flex-grow: 0;}
+    .mail{/* info@devstudio.com */
+    
+    
+        position: absolute;
+        width: 153px;
+        height: 24px;
+        left: 940px;
+        top: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px; 
+        letter-spacing: 0.02em;
+        color: #434455;}
+    .mail:hover{
+        color: orange;
+    }
+    .mail:focus{
+        color: red;
+    }
+    .tel{
+        /* +11 (000) 111-11-11 */
+    
+    
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    
+    /* Body */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    
+    /* SLATE */
+    
+    color: #434455;}
+    .tel:hover{
+        color: orange;
+    }
+    .tel:focus{
+        color: red;
+    }
