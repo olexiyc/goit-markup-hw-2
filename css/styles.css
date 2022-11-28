@@ -22,10 +22,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em; 
-    color: #2E2F42;    
-    flex: none;
-    order: 0;
-    flex-grow: 0;}
+    color: #2E2F42;}
 .portfolio{
 width: 66px;
 height: 24px;
@@ -47,12 +44,7 @@ color: #2E2F42;}
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-
-    letter-spacing: 0.02em;
-    
-    /* SLATE */
-    
+    line-height: 24px; letter-spacing: 0.02em;
     color: #434455;}
 .mail:hover{
     color: orange;
@@ -87,14 +79,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-
-color: #FFFFFF;}
+line-height: 19px; color: #FFFFFF;}
 .title{
     font-family: 'Roboto';
     font-style: normal;
@@ -161,8 +146,7 @@ color: #FFFFFF;}
     text-transform: capitalize;
     
     color: #2E2F42;}
-.worker{/* Header 3 */
-
+.worker{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -171,23 +155,11 @@ color: #FFFFFF;}
     /* identical to box height, or 120% */
     
     text-align: center;
-    letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
-    
-    color: #2E2F42;}
-.position{/* Body */
-
+    letter-spacing: 0.02em; color: #2E2F42;}
+.position{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
-    text-align: center;
-    letter-spacing: 0.02em;
-    
-    /* SLATE */
-    
-    color: #434455;}
+    line-height: 24px; text-align: center;
+    letter-spacing: 0.02em; color: #434455;}
